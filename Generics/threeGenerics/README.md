@@ -11,10 +11,6 @@ public static void CopyAnimals(List<Dog> src, List<Animal> dst)
 ```
 ----
 
-
----
-
-```markdown
 # FillWithCats - заполнение списка котами
 
 ## Описание
@@ -25,13 +21,9 @@ public static void CopyAnimals(List<Dog> src, List<Animal> dst)
 
 ```csharp
 public static void FillWithCats(List<Animal> dst)
-
-----
-
-
+```
 ---
 
-```markdown
 # SafeTransfer - безопасный перенос элементов
 
 ## Описание
@@ -42,3 +34,4 @@ public static void FillWithCats(List<Animal> dst)
 
 ```csharp
 public static void SafeTransfer<T>(IEnumerable<T> src, ICollection<T> dst)
+```
